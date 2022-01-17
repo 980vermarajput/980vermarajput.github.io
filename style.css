@@ -247,7 +247,7 @@ main#main-wrapper {
   flex-wrap: wrap;
 }
 @media (max-width: 768px) {
-  main#first {
+  main#main-wrapper {
     padding-bottom: 418px;
   }
 }
