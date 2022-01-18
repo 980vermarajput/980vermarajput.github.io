@@ -14,7 +14,7 @@ body {
   left: 0px;
   top: 0px; */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(/resources/images/Rectangle\ 165.png);
+    url(./resources/images/Rectangle\ 165.png);
   mix-blend-mode: normal;
   border-radius: 0px;
   background-size: 100vw;
@@ -139,7 +139,7 @@ a#social-media-connect {
 }
 
 #social-media-connect::after {
-  content: url("/resources/images/Icon.png");
+  content: url("./resources/images/Icon.png");
 }
 
 .res-nav {
@@ -307,7 +307,7 @@ div.first_text h5 {
 .first_card {
   height: 377px;
   width: 289px;
-  background: url("/resources/images/ntfCard.svg");
+  background: url("./resources/images/ntfCard.svg");
   background-position: center top;
   /* border: 1px solid #000000; */
   box-sizing: border-box;
@@ -694,7 +694,7 @@ div.first_text h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 18%;
+  padding-top: 10%;
 }
 .seven_text {
   font-family: Tomica;
@@ -787,7 +787,7 @@ div.first_text h5 {
   width: auto;
   /* height: 120vh; */
   display: flex;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-bottom: 17%;
   background: #f8f8f8;
   flex-direction: column;
@@ -856,21 +856,15 @@ div.first_text h5 {
   border-radius: 45px;
 }
 #eight_form form button {
-  float: right;
-  margin-left: 50%;
-  height: 50px;
-  width: 20%;
   background: #00ff47;
   border: 1px solid rgba(0, 0, 0, 0.62);
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 100px;
-  font-family: Tomica;
-  font-style: normal;
+  padding: 15px 33px;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 24px;
-  /* or 133% */
+  font-family: inherit;
+  font-style: normal;
 }
 @media (max-width: 485px) {
   #eight_form {
@@ -981,6 +975,17 @@ div.first_text h5 {
   /* TEXT COLOR */
 
   color: #39425d;
+}
+.second-col-container button {
+  background: #00ff47;
+  border: 1px solid rgba(0, 0, 0, 0.62);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 100px;
+  padding: 15px 33px;
+  font-weight: bold;
+  font-family: inherit;
+  font-style: normal;
 }
 
 .footer-links {
